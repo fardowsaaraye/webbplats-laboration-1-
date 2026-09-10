@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <rect width="1000" height="1000" fill="white"/>
+
+  <!-- Original ornamental interlaced monogram frame -->
+  <g fill="none" stroke="#111" stroke-width="22" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M210 210
+             C110 120 105 350 245 350
+             C385 350 385 140 500 140
+             C615 140 615 350 755 350
+             C895 350 890 120 790 210"/>
+    <path d="M210 790
+             C110 880 105 650 245 650
+             C385 650 385 860 500 860
+             C615 860 615 650 755 650
+             C895 650 890 880 790 790"/>
+    <path d="M210 210
+             C120 310 120 420 245 500
+             C120 580 120 690 210 790"/>
+    <path d="M790 210
+             C880 310 880 420 755 500
+             C880 580 880 690 790 790"/>
+    <path d="M245 350 C335 410 335 590 245 650"/>
+    <path d="M755 350 C665 410 665 590 755 650"/>
+  </g>
+
+  <!-- Small central diamond details -->
+  <g fill="#111">
+    <rect x="476" y="292" width="48" height="48" transform="rotate(45 500 316)"/>
+    <rect x="476" y="660" width="48" height="48" transform="rotate(45 500 684)"/>
+  </g>
+
+  <!-- FA initials -->
+  <g fill="none" stroke="#111" stroke-width="30" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M400 665 L400 375 L575 375"/>
+    <path d="M400 500 L535 500"/>
+    <path d="M510 665 L620 375 L730 665"/>
+    <path d="M555 555 L685 555"/>
+  </g>
+</svg>
